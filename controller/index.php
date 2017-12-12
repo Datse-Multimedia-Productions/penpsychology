@@ -8,11 +8,9 @@ if (!isset($action)) {
 switch ($action) {
 	case "index":
 		include_once("view/index.php");
-		echo "index";
 		break;
 	default:
 		include_once("view/index.php");
-		echo "default";
 }
 
 

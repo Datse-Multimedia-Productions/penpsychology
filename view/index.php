@@ -1,9 +1,11 @@
 <?php 
 
-//$path = '/var/www/penpsychology';
-//set_include_path(get_include_path() . PATH_SEPARATOR . $path);
+include_once("includes/header.php");
 
-require_once("controller/index.php");
+echo "
+	<p>This is the body</p>
+";
 
+include_once("includes/footer.php");
 
 ?>
