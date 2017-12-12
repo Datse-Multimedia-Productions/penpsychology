@@ -1,15 +1,18 @@
 <?php
 
 require_once("model/index.php");
+if (!isset($action)) {
+	$action="none";
+}
 
 switch ($action) {
 	case "index":
-		$pagename="index";
 		include_once("view/index.php");
+		echo "index";
 		break;
 	default:
-		$pagename="default";
 		include_once("view/index.php");
+		echo "default";
 }
 
 
